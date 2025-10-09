@@ -19,6 +19,7 @@ The algorithms in notebooks **2–8** are implemented in a custom **7×7 GridWor
 
 This setup allows testing algorithms such as Monte Carlo, SARSA, Q-Learning, and DQN within a discrete and interpretable environment.
 
+![alt text](demonstration.png)
 ---
 
 ### 🎯 CartPole Environment (for notebook **9**)
