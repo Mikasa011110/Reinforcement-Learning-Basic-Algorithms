@@ -1,7 +1,7 @@
 # Reinforcement-Learning-Basic-Algorithms
-The code was wrote when I first started learning RL
+I would like to express my sincere gratitude to ***Prof. Shiyu Zhao*** (Westlake University) for the course ***Mathematical Principles of Reinforcement Learning*** and to ***Prof. Weinan Zhang*** for ***Hands-on Reinforcement Learning***. Both have profoundly inspired and shaped my systematic study of reinforcement learning.
 
-### 🧠 GridWorld Environment (for notebooks **2–8**)
+###  GridWorld Environment (for notebooks **2–8**)
 
 The algorithms in notebooks **2–8** are implemented in a custom **7×7 GridWorld** environment.
 
@@ -22,26 +22,21 @@ This setup allows testing algorithms such as Monte Carlo, SARSA, Q-Learning, and
 ![alt text](demonstration.png)
 ---
 
-### 🎯 CartPole Environment (for notebook **9**)
+###  CartPole Environment (for notebook **9**)
 
 The algorithm in notebook **9** is implemented in the **CartPole-v0** environment from **OpenAI Gym**.
 
-**Environment description:**
-- The agent controls a **cart** that moves left or right to balance a **pole** upright on it.  
-- Each time step provides a **+1 reward** as long as the pole remains balanced.  
-- An episode ends when:
-  - The pole falls beyond **±12 degrees**, or  
-  - The cart moves more than **2.4 units** away from the center, or  
-  - The maximum step limit (200 steps) is reached.  
-- The objective is to learn a control policy that keeps the pole balanced for as long as possible.
+---
 
-This environment provides a continuous observation space and a discrete action space, making it a standard benchmark for testing **Deep Q-Network (DQN)** algorithms.
+###  Inverted Pendulum (for notebook **10**)
+The algorithm in notebook **10** is implemented in the **Pendulum-v1** environment from **OpenAI Gym**.
 
 ---
 
-### ⚙️ Summary
+###  Summary
 
 | Notebook ID | Algorithm Environment | Description |
 |--------------|-----------------------|--------------|
 | 2–8 | **GridWorld** | Tabular RL algorithms (MC, SARSA, Q-Learning, etc.) |
 | 9 | **CartPole-v0** | Deep Q-Network (DQN) implementation |
+| 10 | **Pendulum-v1** | DoubleDQN implementation |
